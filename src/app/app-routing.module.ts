@@ -5,6 +5,7 @@ import * as pages from './pages';
 const routes: Routes = [
   {path:'', redirectTo: 'login', pathMatch: 'full'},
   {path:'login', component: pages.PageLoginComponent},
+  {path:'dashboard', component: pages.PageDashboardComponent},
   {path:'404', component: pages.PageNotfoundComponent},
   {path: '**', redirectTo: '404', pathMatch: 'full' },
 ];

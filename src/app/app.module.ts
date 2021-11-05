@@ -28,6 +28,9 @@ import { PageNotfoundComponent } from './pages/page-notfound/page-notfound.compo
 import { AppTopbarComponent } from './components/app-topbar/app-topbar.component';
 import {ReactiveFormsModule} from "@angular/forms";
 import { PageDashboardComponent } from './pages/page-dashboard/page-dashboard.component';
+import { AppMenuComponent } from './components/app-menu/app-menu.component';
+import { AppChildcardComponent } from './components/app-childcard/app-childcard.component';
+import { PageChilddetailsComponent } from './pages/page-childdetails/page-childdetails.component';
 
 
 @NgModule({
@@ -36,7 +39,10 @@ import { PageDashboardComponent } from './pages/page-dashboard/page-dashboard.co
     PageLoginComponent,
     PageNotfoundComponent,
     AppTopbarComponent,
-    PageDashboardComponent
+    PageDashboardComponent,
+    AppMenuComponent,
+    AppChildcardComponent,
+    PageChilddetailsComponent
   ],
   imports: [
     BrowserModule,

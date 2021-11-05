@@ -7,9 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PageDashboardComponent implements OnInit {
 
+  public childs: any
+
   constructor() { }
 
   ngOnInit(): void {
+    this.childs = [
+      {id: 4, name: 'demo'},
+      {id: 4, name: 'demo'},
+      {id: 4, name: 'demo'},
+      {id: 4, name: 'demo'},
+      {id: 4, name: 'demo'},
+      {id: 4, name: 'demo'},
+      {id: 4, name: 'demo'},
+      {id: 4, name: 'demo'},
+      {id: 4, name: 'demo'}
+    ]
   }
 
 }
