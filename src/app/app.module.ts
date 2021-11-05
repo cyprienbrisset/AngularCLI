@@ -26,8 +26,8 @@ import {TreeTableService} from "primeng/treetable";
 import { PageLoginComponent } from './pages/page-login/page-login.component';
 import { PageNotfoundComponent } from './pages/page-notfound/page-notfound.component';
 import { AppTopbarComponent } from './components/app-topbar/app-topbar.component';
-import { PageErrorComponent } from './pages/page-error/page-error.component';
 import {ReactiveFormsModule} from "@angular/forms";
+import { PageDashboardComponent } from './pages/page-dashboard/page-dashboard.component';
 
 
 @NgModule({
@@ -36,7 +36,7 @@ import {ReactiveFormsModule} from "@angular/forms";
     PageLoginComponent,
     PageNotfoundComponent,
     AppTopbarComponent,
-    PageErrorComponent
+    PageDashboardComponent
   ],
   imports: [
     BrowserModule,

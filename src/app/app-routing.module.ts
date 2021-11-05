@@ -1,9 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {PageLoginComponent} from "./pages/page-login/page-login.component";
+import * as pages from './pages';
 
 const routes: Routes = [
-  {path:'login', component: PageLoginComponent}
+  {path:'', redirectTo: 'login', pathMatch: 'full'},
+  {path:'login', component: pages.PageLoginComponent},
+  {path:'404', component: pages.PageNotfoundComponent},
+  {path: '**', redirectTo: '404', pathMatch: 'full' },
 ];
 
 @NgModule({
